@@ -1,0 +1,7 @@
+{
+  "name": "ocrApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
