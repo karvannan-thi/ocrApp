@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-button (click)="back()">
+            <ion-icon slot="start" name="arrow-back" (click)="back()"></ion-icon>
+          </ion-button>
+        </ion-buttons>
+    <ion-title>people</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+        <ion-card-header>
+          
+          <ion-card-title color="danger" >N° DE ORDEM: {{id}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Card number</p>
+        </ion-card-content>
+      </ion-card>
+</ion-content>

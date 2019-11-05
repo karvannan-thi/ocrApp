@@ -1,7 +1,8 @@
 {
   "name": "ocrApp",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
